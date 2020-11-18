@@ -11,9 +11,11 @@ MacOS
 -----
  MacOS comes with NCurses pre-installed (libncurses.5.4)
  
-When compiling an ncurses program, make sure to link the ncurses library using the compile flag "-lncurses" AFTER your source code (otherwise, your linker will throw an error.)
+When compiling an ncurses program, make sure to link the ncurses library using the compile flag "-lncurses" AFTER your source code (otherwise, your linker will throw an error).
   
-  Example: "g++ ncurses_prog.c -lncurses -o ncurses_prog.o"
+  Example: 
+  
+    "g++ ncurses_prog.c -lncurses -o ncurses_prog.o"
 
 Linux
 -----
