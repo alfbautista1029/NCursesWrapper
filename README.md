@@ -26,7 +26,7 @@ Linux
     
     "sudo apt-get install libncurses5-dev libncursesw5-dev"
 
- CentOS/RHEL/Scientific Linux 6.x/7.x+ and Fedora Linux 21 or older,
+ For CentOS/RHEL/Scientific Linux 6.x/7.x+ and Fedora Linux 21 or older,
   Install the library using the command:
     
       "sudo yum install ncurses-devel"
